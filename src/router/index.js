@@ -1,4 +1,6 @@
+import ServiceView from '@/views/ServiceView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import AboutView from '../views/AboutView.vue'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
@@ -12,10 +14,49 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
+      component: AboutView,
+    },
+    {
+      path: '/services/:id',
+      name: 'service-view',
+      component: ServiceView,
+      props: true,
+    },
+    {
+      path: '/quote-request',
+      name: 'quote-request',
+    },
+    {
+      path: '/contactus',
+      name: 'contactus',
+    },
+    {
+      path: '/works',
+      name: 'works',
+    },
+    {
+      path: '/services',
+      name: 'services',
+    },
+    {
+      path: '/jobs',
+      name: 'jobs',
+    },
+    {
+      path: '/support',
+      name: 'support',
+    },
+    {
+      path: '/blogs',
+      name: 'blogs',
+    },
+    {
+      path: '/customers',
+      name: 'customers',
+    },
+    {
+      path: '/service-request',
+      name: 'service-request',
     },
   ],
 })
