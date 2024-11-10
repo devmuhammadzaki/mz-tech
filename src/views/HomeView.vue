@@ -32,7 +32,7 @@ if (services.length === 0) {
                 </div>
               </div>
               <div class="banner_mockup">
-                <img src="@/assets/storage/Settings/settings_285-1639569616.png" alt="شركة محمد زكي لتقنية المعلومات" />
+                <img src="/storage/Settings/settings_285-1639569616.png" alt="شركة محمد زكي لتقنية المعلومات" />
               </div>
             </div>
           </div>
@@ -44,13 +44,13 @@ if (services.length === 0) {
           -webkit-transform: translate3d(0px, 0.029px, 0px) rotateX(0deg)
             rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
         ">
-        <img src="@/assets/user/img/saas-c/banner/b-shape4.png" alt="" />
+        <img src="/img/saas-c/banner/b-shape4.png" alt="" />
       </div>
       <div class="s2-banner_shape2 position-absolute">
-        <img src="@/assets/user/img/saas-c/banner/b-shape3.png" alt="" />
+        <img src="/img/saas-c/banner/b-shape3.png" alt="" />
       </div>
       <div class="s2-banner_shape3 position-absolute">
-        <img src="@/assets/user/img/saas-c/banner/b-shape2.png" alt="" />
+        <img src="/img/saas-c/banner/b-shape2.png" alt="" />
       </div>
     </section>
 
@@ -72,13 +72,13 @@ if (services.length === 0) {
     <!--Start of About Us section-->
     <section class="str-about-section position-relative" id="str-about">
       <div class="str-aboutbg1 position-absolute">
-        <img src="@/assets/user/img/startup/shape/vs1.png" alt="" />
+        <img src="/img/startup/shape/vs1.png" alt="" />
       </div>
       <div class="str-aboutbg2 position-absolute">
-        <img src="@/assets/user/img/startup/shape/vs2.png" alt="" />
+        <img src="/img/startup/shape/vs2.png" alt="" />
       </div>
       <div class="str-aboutbg3 position-absolute">
-        <img src="@/assets/user/img/startup/shape/vs3.png" alt="" />
+        <img src="/img/startup/shape/vs3.png" alt="" />
       </div>
       <div class="container">
         <div class="str-about-content">
@@ -107,14 +107,14 @@ if (services.length === 0) {
               <div class="str-about-img position-relative wow fadeFromLeft" data-wow-delay="300ms"
                 data-wow-duration="1500ms">
                 <div class="str-about-shape">
-                  <img src="@/assets/user/img/startup/shape/abs.png" alt="" />
+                  <img src="/img/startup/shape/abs.png" alt="" />
                 </div>
                 <div class="str-about-logo">
-                  <img src="@/assets/storage/Settings/settings_152-1639569616.png" class="w-25" />
+                  <img src="/storage/Settings/settings_152-1639569616.png" class="w-25" />
                 </div>
                 <div class="str-about-img-field">
                   <div class="str-about-pic">
-                    <img src="@/assets/storage/Pages/pages_36-1639322829.png" alt="" />
+                    <img src="/storage/Pages/pages_36-1639322829.png" alt="" />
                   </div>
                   <div class="str-progress-area str-headline">
                     <h3>الزيادة في المبيعات</h3>
@@ -136,10 +136,10 @@ if (services.length === 0) {
                 </div>
                 <div class="str-about-img-field">
                   <div class="str-about-pic">
-                    <img src="@/assets/storage/Pages/pages_273-1639322829.png" alt="" />
+                    <img src="/storage/Pages/pages_273-1639322829.png" alt="" />
                   </div>
                   <div class="str-about-pic">
-                    <img src="@/assets/storage/Pages/pages_820-1639322829.png" alt="" />
+                    <img src="/storage/Pages/pages_820-1639322829.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -187,8 +187,7 @@ if (services.length === 0) {
                     <div class="col-md-4 mb-2">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_512-1642408184.png"
-                            alt="مجموعة هشام عسكر وشركاه" />
+                          <img src="/storage/Portfolios/_portfolios_512-1642408184.png" alt="مجموعة هشام عسكر وشركاه" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">مجموعة هشام عسكر وشركاه</a></h3>
@@ -196,7 +195,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_512-1642408184.png"
+                            href="/storage/Portfolios/_portfolios_512-1642408184.png"
                             aria-label="مجموعة هشام عسكر وشركاه Image">
                             <i class="fas fa-plus"></i>
                           </a>
@@ -206,7 +205,7 @@ if (services.length === 0) {
                     <div class="col-md-4 mb-2">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_943-1642409913.png" alt="الجازع" />
+                          <img src="/storage/Portfolios/_portfolios_943-1642409913.png" alt="الجازع" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">الجازع</a></h3>
@@ -214,7 +213,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_943-1642409913.png" aria-label="الجازع Image">
+                            href="/storage/Portfolios/_portfolios_943-1642409913.png" aria-label="الجازع Image">
                             <i class="fas fa-plus"></i>
                           </a>
                         </div>
@@ -223,8 +222,7 @@ if (services.length === 0) {
                     <div class="col-md-4 mb-2">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_502-1642409356.png"
-                            alt="الحل السريع للسيارات" />
+                          <img src="/storage/Portfolios/_portfolios_502-1642409356.png" alt="الحل السريع للسيارات" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">الحل السريع للسيارات</a></h3>
@@ -232,7 +230,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_502-1642409356.png"
+                            href="/storage/Portfolios/_portfolios_502-1642409356.png"
                             aria-label="الحل السريع للسيارات Image">
                             <i class="fas fa-plus"></i>
                           </a>
@@ -242,7 +240,7 @@ if (services.length === 0) {
                     <div class="col-md-4 mb-2">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_240-1642409202.png" alt="العائلة اولا" />
+                          <img src="/storage/Portfolios/_portfolios_240-1642409202.png" alt="العائلة اولا" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">العائلة اولا</a></h3>
@@ -250,8 +248,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_240-1642409202.png"
-                            aria-label="العائلة اولا Image">
+                            href="/storage/Portfolios/_portfolios_240-1642409202.png" aria-label="العائلة اولا Image">
                             <i class="fas fa-plus"></i>
                           </a>
                         </div>
@@ -260,7 +257,7 @@ if (services.length === 0) {
                     <div class="col-md-4 mb-2">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_787-1642409055.png" alt="أرت فيجن" />
+                          <img src="/storage/Portfolios/_portfolios_787-1642409055.png" alt="أرت فيجن" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">أرت فيجن</a></h3>
@@ -268,8 +265,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_787-1642409055.png"
-                            aria-label="أرت فيجن Image">
+                            href="/storage/Portfolios/_portfolios_787-1642409055.png" aria-label="أرت فيجن Image">
                             <i class="fas fa-plus"></i>
                           </a>
                         </div>
@@ -278,7 +274,7 @@ if (services.length === 0) {
                     <div class="col-md-4 mb-2">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_863-1642408702.png" alt="الما" />
+                          <img src="/storage/Portfolios/_portfolios_863-1642408702.png" alt="الما" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">الما</a></h3>
@@ -286,7 +282,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_863-1642408702.png" aria-label="الما Image">
+                            href="/storage/Portfolios/_portfolios_863-1642408702.png" aria-label="الما Image">
                             <i class="fas fa-plus"></i>
                           </a>
                         </div>
@@ -302,8 +298,7 @@ if (services.length === 0) {
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_688-1639569889.jpg"
-                            alt="كوادر مدد الاستقدام" />
+                          <img src="/storage/Portfolios/_portfolios_688-1639569889.jpg" alt="كوادر مدد الاستقدام" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">كوادر مدد الاستقدام</a></h3>
@@ -313,16 +308,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_688-1639569889.jpg"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_688-1639569889.jpg"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_512-1642408184.png"
-                            alt="مجموعة هشام عسكر وشركاه" />
+                          <img src="/storage/Portfolios/_portfolios_512-1642408184.png" alt="مجموعة هشام عسكر وشركاه" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">مجموعة هشام عسكر وشركاه</a></h3>
@@ -332,15 +325,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_512-1642408184.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_512-1642408184.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_805-1642407825.png" alt="ترنسفورمس جيم" />
+                          <img src="/storage/Portfolios/_portfolios_805-1642407825.png" alt="ترنسفورمس جيم" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">ترنسفورمس جيم</a></h3>
@@ -350,15 +342,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_805-1642407825.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_805-1642407825.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_314-1642408321.png" alt="دريم 2 للشحن" />
+                          <img src="/storage/Portfolios/_portfolios_314-1642408321.png" alt="دريم 2 للشحن" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">دريم 2 للشحن</a></h3>
@@ -368,15 +359,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_314-1642408321.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_314-1642408321.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_407-1642408064.png"
+                          <img src="/storage/Portfolios/_portfolios_407-1642408064.png"
                             alt="كرم الرنيم لخدمات الاعاشة" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
@@ -387,16 +377,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_407-1642408064.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_407-1642408064.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_192-1642422570.png"
-                            alt="مكتب حكم العدالة" />
+                          <img src="/storage/Portfolios/_portfolios_192-1642422570.png" alt="مكتب حكم العدالة" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">مكتب حكم العدالة</a></h3>
@@ -406,15 +394,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_192-1642422570.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_192-1642422570.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_863-1642408702.png" alt="الما" />
+                          <img src="/storage/Portfolios/_portfolios_863-1642408702.png" alt="الما" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">الما</a></h3>
@@ -424,15 +411,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_863-1642408702.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_863-1642408702.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_787-1642409055.png" alt="أرت فيجن" />
+                          <img src="/storage/Portfolios/_portfolios_787-1642409055.png" alt="أرت فيجن" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">أرت فيجن</a></h3>
@@ -442,15 +428,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_787-1642409055.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_787-1642409055.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_240-1642409202.png" alt="العائلة اولا" />
+                          <img src="/storage/Portfolios/_portfolios_240-1642409202.png" alt="العائلة اولا" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">العائلة اولا</a></h3>
@@ -460,16 +445,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_240-1642409202.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_240-1642409202.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_502-1642409356.png"
-                            alt="الحل السريع للسيارات" />
+                          <img src="/storage/Portfolios/_portfolios_502-1642409356.png" alt="الحل السريع للسيارات" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">الحل السريع للسيارات</a></h3>
@@ -479,15 +462,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_502-1642409356.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_502-1642409356.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_943-1642409913.png" alt="الجازع" />
+                          <img src="/storage/Portfolios/_portfolios_943-1642409913.png" alt="الجازع" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">الجازع</a></h3>
@@ -497,8 +479,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_943-1642409913.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_943-1642409913.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
@@ -511,7 +492,7 @@ if (services.length === 0) {
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_398-1642513818.png" alt="قناة الوساطة" />
+                          <img src="/storage/Portfolios/_portfolios_398-1642513818.png" alt="قناة الوساطة" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">قناة الوساطة</a></h3>
@@ -521,15 +502,14 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_398-1642513818.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_398-1642513818.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="smm-case-innerbox position-relative">
                         <div class="smm-case-img">
-                          <img src="@/assets/storage/Portfolios/_portfolios_82-1642516635.png" alt="قناه الوساطة" />
+                          <img src="/storage/Portfolios/_portfolios_82-1642516635.png" alt="قناه الوساطة" />
                         </div>
                         <div class="smm-case-text smm-headline pera-content">
                           <h3><a href="#">قناه الوساطة</a></h3>
@@ -539,8 +519,7 @@ if (services.length === 0) {
                         </div>
                         <div class="smm-case-popup">
                           <a class="smm-video-box" data-fancybox="gallery"
-                            href="@/assets/storage/Portfolios/_portfolios_82-1642516635.png"><i
-                              class="fas fa-plus"></i></a>
+                            href="/storage/Portfolios/_portfolios_82-1642516635.png"><i class="fas fa-plus"></i></a>
                         </div>
                       </div>
                     </div>
@@ -674,14 +653,14 @@ if (services.length === 0) {
 
     <!--Start of testimonial section-->
     <section class="crm-testimonial-section position-relative" id="crm-testimonial">
-      <span class="crm-testimonial-bg position-absolute text-center"><img src="@/assets/user/img/crm/shape/crm-map.png"
+      <span class="crm-testimonial-bg position-absolute text-center"><img src="/img/crm/shape/crm-map.png"
           alt="" /></span>
       <div class="container">
         <div class="crm-testimonial-wrapper">
           <div class="crm-testimonial-area owl-carousel" id="crm-testimonial-id">
             <div class="crm-testimonial-content text-center">
               <div class="crm-testimonial-img">
-                <img src="@/assets/storage/Testmonials/_testmonials_384-1639480507.webp" alt="محمد مدحت" />
+                <img src="/storage/Testmonials/_testmonials_384-1639480507.webp" alt="محمد مدحت" />
               </div>
               <div class="crm-testimonial-text pera-content crm-headline">
                 <div>
@@ -697,7 +676,7 @@ if (services.length === 0) {
             </div>
             <div class="crm-testimonial-content text-center">
               <div class="crm-testimonial-img">
-                <img src="@/assets/storage/Testmonials/_testmonials_506-1639477965.jpg" alt="عبد الرحمن محمد" />
+                <img src="/storage/Testmonials/_testmonials_506-1639477965.jpg" alt="عبد الرحمن محمد" />
               </div>
               <div class="crm-testimonial-text pera-content crm-headline">
                 <div>
@@ -714,7 +693,7 @@ if (services.length === 0) {
             </div>
             <div class="crm-testimonial-content text-center">
               <div class="crm-testimonial-img">
-                <img src="@/assets/storage/Testmonials/_testmonials_528-1639475176.jpg" alt="فاطمة فارس" />
+                <img src="/storage/Testmonials/_testmonials_528-1639475176.jpg" alt="فاطمة فارس" />
               </div>
               <div class="crm-testimonial-text pera-content crm-headline">
                 <div>
@@ -728,7 +707,7 @@ if (services.length === 0) {
             </div>
             <div class="crm-testimonial-content text-center">
               <div class="crm-testimonial-img">
-                <img src="@/assets/storage/Testmonials/_testmonials_216-1639480640.jpg" alt="رامي جمال محمد" />
+                <img src="/storage/Testmonials/_testmonials_216-1639480640.jpg" alt="رامي جمال محمد" />
               </div>
               <div class="crm-testimonial-text pera-content crm-headline">
                 <div>
@@ -751,49 +730,49 @@ if (services.length === 0) {
       <div class="container">
         <div class="str-partner-area owl-carousel" id="str-partner-slide">
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_435-1642604903.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_435-1642604903.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_594-1697521584.jpg" alt="partener" />
+            <img src="/storage/Sliders/_sliders_594-1697521584.jpg" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_823-1642604880.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_823-1642604880.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_860-1642604895.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_860-1642604895.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_72-1642604913.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_72-1642604913.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_225-1642604921.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_225-1642604921.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_511-1642604930.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_511-1642604930.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_567-1642604940.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_567-1642604940.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_189-1642604949.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_189-1642604949.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_390-1642604960.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_390-1642604960.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_108-1642604973.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_108-1642604973.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_635-1642604984.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_635-1642604984.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_970-1642604995.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_970-1642604995.png" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_159-1666179799.jpg" alt="partener" />
+            <img src="/storage/Sliders/_sliders_159-1666179799.jpg" alt="partener" />
           </div>
           <div class="str-partner-img">
-            <img src="@/assets/storage/Sliders/_sliders_811-1666179811.png" alt="partener" />
+            <img src="/storage/Sliders/_sliders_811-1666179811.png" alt="partener" />
           </div>
         </div>
       </div>
@@ -819,8 +798,7 @@ if (services.length === 0) {
         <div class="str-blog-area owl-carousel" id="str-blog-slide">
           <div class="str-blog-img-text position-relative">
             <div class="str-blog-thumb">
-              <img src="@/assets/storage/Blogs/_blogs_521-1640875309.jpg"
-                alt="ما مدى تنافسية التسويق الإبداعي الخاص بك؟" />
+              <img src="/storage/Blogs/_blogs_521-1640875309.jpg" alt="ما مدى تنافسية التسويق الإبداعي الخاص بك؟" />
             </div>
             <div class="str-blog-meta text-center text-uppercase">18 Oct</div>
             <div class="str-blog-text str-headline">
@@ -846,7 +824,7 @@ if (services.length === 0) {
             <div class="col-lg-4">
               <div class="str-get-touch-icon-text">
                 <div class="str-get-touch-icon text-center float-left">
-                  <img src="@/assets/user/img/startup/icon/gt1.png" alt="" />
+                  <img src="/img/startup/icon/gt1.png" alt="" />
                 </div>
                 <div class="str-get-touch-text str-headline">
                   <h3>عنوان المكتب</h3>
@@ -857,7 +835,7 @@ if (services.length === 0) {
             <div class="col-lg-4">
               <div class="str-get-touch-icon-text">
                 <div class="str-get-touch-icon text-center float-left">
-                  <img src="@/assets/user/img/startup/icon/gt2.png" alt="" />
+                  <img src="/img/startup/icon/gt2.png" alt="" />
                 </div>
                 <div class="str-get-touch-text str-headline">
                   <h3>رقم الهاتف</h3>
@@ -868,7 +846,7 @@ if (services.length === 0) {
             <div class="col-lg-4">
               <div class="str-get-touch-icon-text">
                 <div class="str-get-touch-icon text-center float-left">
-                  <img src="@/assets/user/img/startup/icon/gt3.png" alt="" />
+                  <img src="/img/startup/icon/gt3.png" alt="" />
                 </div>
                 <div class="str-get-touch-text str-headline">
                   <h3>عنوان البريد الالكتروني</h3>

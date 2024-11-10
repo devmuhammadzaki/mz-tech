@@ -36,7 +36,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="s2-about_img">
-                <img src="@/assets/storage/Pages/pages_639-1639570147.jpg" alt="" />
+                <img src="..//storage/Pages/pages_639-1639570147.jpg" alt="" />
               </div>
             </div>
             <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -77,7 +77,7 @@
             </div>
             <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="s2-about_img">
-                <img src="@/assets/storage/Pages/pages_908-1636368586.jpg" alt="مهمتنا" />
+                <img src="/storage/Pages/pages_908-1636368586.jpg" alt="مهمتنا" />
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="s2-about_img">
-                <img src="@/assets/storage/Pages/pages_842-1639570213.jpg" alt="سياسة الجودة" />
+                <img src="/storage/Pages/pages_842-1639570213.jpg" alt="سياسة الجودة" />
               </div>
             </div>
             <div class="col-lg-6 col-md-12 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -131,7 +131,7 @@
             </div>
             <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="s2-about_img">
-                <img src="@/assets/storage/Pages/pages_362-1639570241.jpg" alt="الشركاء" />
+                <img src="/storage/Pages/pages_362-1639570241.jpg" alt="الشركاء" />
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="s2-about_img">
-                <img src="@/assets/storage/Pages/pages_235-1639570270.jpg" alt="فريق الشركة" />
+                <img src="/storage/Pages/pages_235-1639570270.jpg" alt="فريق الشركة" />
               </div>
             </div>
             <div class="col-lg-6 col-md-12 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">

@@ -17,7 +17,7 @@ const toggleDropdown = () => {
                     <div class="col-6 col-md-1 px-0">
                         <div class="brand_logo">
                             <RouterLink to="/" class="d-block">
-                                <img class="img-fluid w-100" src="@/assets/storage/Settings/settings_152-1639569616.png"
+                                <img class="img-fluid w-100" src="/storage/Settings/settings_152-1639569616.png"
                                     alt="شركة محمد زكي لتقنية المعلومات" />
                             </RouterLink>
                         </div>
@@ -89,7 +89,7 @@ const toggleDropdown = () => {
                             <i class="far fa-times-circle"></i>
                         </div>
                         <div class="m-brand-logo text-center">
-                            <RouterLink to="/"><img src="@/assets/storage/Settings/settings_152-1639569616.png"
+                            <RouterLink to="/"><img src="/storage/Settings/settings_152-1639569616.png"
                                     alt="شركة محمد زكي لتقنية المعلومات" /></RouterLink>
                         </div>
                         <nav class="s2-mobile-main-navigation clearfix ul-li">

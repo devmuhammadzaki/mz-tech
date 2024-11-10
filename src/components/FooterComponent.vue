@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router';
                         <div class="str-footer-widget str-headline pera-content">
                             <div class="str-ft-about-widget">
                                 <RouterLink to="/" exact><img class="footer-logo"
-                                        src="@/assets/storage/Settings/settings_152-1639569616.png" alt="Our Logo" />
+                                        src="/storage/Settings/settings_152-1639569616.png" alt="Our Logo" />
                                 </RouterLink>
                                 <p>
                                     محمد زكي لتقنية المعلومات نسعى جاهدين لتقديم أفضل الخدمات
