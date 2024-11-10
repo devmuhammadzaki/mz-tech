@@ -1,4 +1,5 @@
 import ServiceView from '@/views/ServiceView.vue'
+import WorksView from '@/views/WorksView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import AboutView from '../views/AboutView.vue'
 import HomeView from '../views/HomeView.vue'
@@ -23,16 +24,17 @@ const router = createRouter({
       props: true,
     },
     {
+      path: '/works',
+      name: 'works',
+      component: WorksView,
+    },
+    {
       path: '/quote-request',
       name: 'quote-request',
     },
     {
       path: '/contactus',
       name: 'contactus',
-    },
-    {
-      path: '/works',
-      name: 'works',
     },
     {
       path: '/services',
