@@ -39,7 +39,7 @@ if (services.length === 0) {
                         <RouterLink to="/" exact>الصفحة الرئيسية</RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="/about">عن الشركة</RouterLink>
+                        <RouterLink to="/services" exact>خدماتنا</RouterLink>
                     </li>
                 </ul>
             </div>
