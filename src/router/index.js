@@ -18,15 +18,19 @@ const router = createRouter({
       component: AboutView,
     },
     {
-      path: '/services/:id',
-      name: 'service-view',
-      component: ServiceView,
-      props: true,
-    },
-    {
       path: '/works',
       name: 'works',
       component: WorksView,
+    },
+    {
+      path: '/services',
+      name: 'services',
+    },
+    {
+      path: '/services/:id',
+      name: 'service',
+      component: ServiceView,
+      props: true,
     },
     {
       path: '/quote-request',
@@ -35,10 +39,6 @@ const router = createRouter({
     {
       path: '/contactus',
       name: 'contactus',
-    },
-    {
-      path: '/services',
-      name: 'services',
     },
     {
       path: '/jobs',

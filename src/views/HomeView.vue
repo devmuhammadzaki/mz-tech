@@ -2,13 +2,8 @@
 import ServiceComponent from '@/components/ServiceComponent.vue';
 import { useServicesStore } from '@/stores/servicesStore';
 
-const store = useServicesStore();
-
-const services = store.services;
-
-if (services.length === 0) {
-  store.fetchServices();
-}
+const servicesStore = useServicesStore();
+const { services } = servicesStore;
 </script>
 
 <template>

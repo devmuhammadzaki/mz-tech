@@ -1,28 +1,20 @@
 <script setup>
 import { useServicesStore } from '@/stores/servicesStore';
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 
 const props = defineProps({
     id: String
 })
 const route = useRoute();
+
 const servicesStore = useServicesStore();
-const { services, fetchServices } = servicesStore;
+const { services } = servicesStore;
 
 const service = ref({});
 
-watch(() => route.params.id, (newId) => {
-    const serviceId = parseInt(newId);
-    service.value = services.find(s => s.id === serviceId) || {};
-});
-
-if (services.length === 0) {
-    fetchServices();
-} else {
-    const serviceId = parseInt(route.params.id);
-    service.value = services.find(s => s.id === serviceId) || {};
-}
+const serviceId = parseInt(route.params.id);
+service.value = services.find(s => s.id === serviceId) || {};
 </script>
 
 
