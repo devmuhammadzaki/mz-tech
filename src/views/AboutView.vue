@@ -36,7 +36,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="s2-about_img">
-                <img src="..//storage/Pages/pages_639-1639570147.jpg" alt="" />
+                <img src="/storage/Pages/pages_639-1639570147.jpg" alt="" />
               </div>
             </div>
             <div class="col-lg-6 col-md-12 wow fadeFromRight" data-wow-delay="300ms" data-wow-duration="1500ms">
