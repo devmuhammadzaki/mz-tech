@@ -28,7 +28,7 @@
                                 </p>
                             </div>
 
-                            <RouterLink class="str-btn d-inline-block" to="/customers">عملائنا<i
+                            <RouterLink class="str-btn d-inline-block" to="/customers">عملاؤنا<i
                                     class="fas fa-arrow-alt-circle-right"></i></RouterLink>
                         </div>
                     </div>

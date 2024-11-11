@@ -1,5 +1,6 @@
 import ApplicationForm from '@/views/ApplicationForm.vue'
 import ContactusView from '@/views/ContactusView.vue'
+import CustomersView from '@/views/CustomersView.vue'
 import JobDetail from '@/views/JobDetail.vue'
 import JobsView from '@/views/JobsView.vue'
 import ServicesView from '@/views/ServicesView.vue'
@@ -58,6 +59,7 @@ const router = createRouter({
     {
       path: '/customers',
       name: 'customers',
+      component: CustomersView,
     },
     {
       path: '/blogs',
@@ -81,6 +83,14 @@ const router = createRouter({
       component: ContactusView,
     },
   ],
+
+  scrollBehavior(savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  },
 })
 
 export default router

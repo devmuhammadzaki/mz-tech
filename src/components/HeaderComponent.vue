@@ -43,7 +43,7 @@ const toggleDropdown = () => {
                                         <RouterLink to="/jobs">التوظيف</RouterLink>
                                     </li>
                                     <li>
-                                        <RouterLink to="/customers">عملائنا</RouterLink>
+                                        <RouterLink to="/customers">عملاؤنا</RouterLink>
                                     </li>
                                     <li>
                                         <RouterLink to="/blogs">المقالات</RouterLink>
@@ -109,7 +109,7 @@ const toggleDropdown = () => {
                                     <RouterLink to="/jobs">التوظيف</RouterLink>
                                 </li>
                                 <li>
-                                    <RouterLink to="/customers">عملائنا</RouterLink>
+                                    <RouterLink to="/customers">عملاؤنا</RouterLink>
                                 </li>
                                 <li>
                                     <RouterLink to="/blogs">المقالات</RouterLink>
