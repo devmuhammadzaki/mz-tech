@@ -1,3 +1,6 @@
+import ApplicationForm from '@/views/ApplicationForm.vue'
+import JobDetail from '@/views/JobDetail.vue'
+import JobsView from '@/views/JobsView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import ServiceView from '@/views/ServiceView.vue'
 import WorksView from '@/views/WorksView.vue'
@@ -37,6 +40,19 @@ const router = createRouter({
     {
       path: '/jobs',
       name: 'jobs',
+      component: JobsView,
+    },
+    {
+      path: '/jobs/:id',
+      name: 'job',
+      component: JobDetail,
+      props: true,
+    },
+    {
+      path: '/job-application/:id',
+      name: 'job-application',
+      component: ApplicationForm,
+      props: true,
     },
     {
       path: '/customers',

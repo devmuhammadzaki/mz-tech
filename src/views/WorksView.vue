@@ -6,5 +6,6 @@ import WorksComponent from '@/components/WorksComponent.vue'
 
 <template>
     <BreadcrumbComponent title="أعمالنا" link="works" />
+
     <WorksComponent />
 </template>

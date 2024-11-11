@@ -5,5 +5,6 @@ import ServicesComponent from '@/components/ServicesComponent.vue'
 
 <template>
     <BreadcrumbComponent title="خدماتنا" link="services" />
+
     <ServicesComponent />
 </template>

@@ -23,13 +23,20 @@ const setPage = (page) => {
         currentPage.value = page;
     }
 };
+
+const selectedCategory = ref('all');
+
+const changeCategory = (category) => {
+    selectedCategory.value = category;
+    currentPage.value = 1;
+};
 </script>
 
 <template>
     <section class="smm-case-study-section" id="smm-case-study">
         <div class="container">
             <div class="str-section-title text-center str-title-center str-headline">
-                <h2>أعمالنا الأخيرة &amp; مشاريعنا</h2>
+                <span class="str-title-tag"> أعمالنا الأخيرة &amp; مشاريعنا</span>
                 <h4>
                     <p>
                         <span dir="RTL">تقدم شركتنا خدمات مميزة لعملائها ، وتتميز الشركة بأن لديها
@@ -39,6 +46,34 @@ const setPage = (page) => {
                     </p>
                 </h4>
             </div>
+
+            <div class="smm-case-study-wrapper">
+                <div class="smm-case-tab text-center clearfix ul-li">
+                    <ul class="nav text-uppercase nav-tabs" id="tabs">
+                        <li class="nav-item">
+                            <a @click="changeCategory('all')" :class="{ 'active show': selectedCategory === 'all' }"
+                                class="nav-link text-capitalize" href="#tabs">
+                                الكل
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a @click="changeCategory('web-design')"
+                                :class="{ 'active show': selectedCategory === 'web-design' }"
+                                class="nav-link text-capitalize" href="#tabs">
+                                تصميم مواقع
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a @click="changeCategory('social-media')"
+                                :class="{ 'active show': selectedCategory === 'social-media' }"
+                                class="nav-link text-capitalize" href="#tabs">
+                                سوشيال ميديا
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             <div class="smm-case-content">
                 <div class="row">
                     <WorkView v-for="work in filteredWorks" :key="work.id" :work="work" />

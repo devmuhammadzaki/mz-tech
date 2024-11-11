@@ -7,6 +7,7 @@ const props = defineProps({
     altText: String,
     link: String,
 });
+
 </script>
 
 <template>

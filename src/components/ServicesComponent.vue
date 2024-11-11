@@ -13,7 +13,7 @@ const { services } = servicesStore;
                 <span class="str-title-tag">خدماتنا</span>
             </div>
             <div class="str-feature-content owl-carousel" id="str-slide">
-                <ServiceComponent v-for="service in services" :key="service.link" :title="service.title"
+                <ServiceComponent v-for="service in services" :key="service.id" :title="service.title"
                     :description="service.description" :imageSrc="service.imageSrc" :altText="service.altText"
                     :link="'/services/' + service.id" />
             </div>
