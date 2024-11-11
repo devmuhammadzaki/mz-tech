@@ -1,4 +1,5 @@
 <script setup>
+import BreadcrumbComponent from '@/components/BreadcrumbComponent.vue'
 import { useServicesStore } from '@/stores/servicesStore';
 import { ref } from 'vue';
 import { useRoute } from 'vue-router';
@@ -20,23 +21,8 @@ service.value = services.find(s => s.id === serviceId) || {};
 
 <template>
     <input type="hidden" :value="props.id">
-    <section class="saasio-breadcurmb-section" id="saasio-breadcurmb">
-        <div class="container">
-            <div class="breadcurmb-title text-center">
-                <h2>خدماتنا</h2>
-            </div>
-            <div class="breadcurmb-item-list text-center ul-li">
-                <ul class="saasio-page-breadcurmb">
-                    <li>
-                        <RouterLink to="/" exact>الصفحة الرئيسية</RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink to="/services" exact>خدماتنا</RouterLink>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+
+    <BreadcrumbComponent title="خدماتنا" link="services" />
 
     <section class="str-feature-section str-feature-section-page str-single-service">
         <div class="container">

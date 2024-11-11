@@ -1,3 +1,4 @@
+import ServicesView from '@/views/ServicesView.vue'
 import ServiceView from '@/views/ServiceView.vue'
 import WorksView from '@/views/WorksView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
@@ -25,6 +26,7 @@ const router = createRouter({
     {
       path: '/services',
       name: 'services',
+      component: ServicesView,
     },
     {
       path: '/services/:id',
@@ -33,32 +35,32 @@ const router = createRouter({
       props: true,
     },
     {
-      path: '/quote-request',
-      name: 'quote-request',
-    },
-    {
-      path: '/contactus',
-      name: 'contactus',
-    },
-    {
       path: '/jobs',
       name: 'jobs',
-    },
-    {
-      path: '/support',
-      name: 'support',
-    },
-    {
-      path: '/blogs',
-      name: 'blogs',
     },
     {
       path: '/customers',
       name: 'customers',
     },
     {
+      path: '/blogs',
+      name: 'blogs',
+    },
+    {
+      path: '/support',
+      name: 'support',
+    },
+    {
+      path: '/quote-request',
+      name: 'quote-request',
+    },
+    {
       path: '/service-request',
       name: 'service-request',
+    },
+    {
+      path: '/contactus',
+      name: 'contactus',
     },
   ],
 })
