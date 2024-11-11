@@ -32,7 +32,7 @@
                             </div>
                             <div class="str-get-touch-text str-headline">
                                 <h3>عنوان البريد الالكتروني</h3>
-                                <span> info@muhammad.zaki </span>
+                                <span> info@mz.tech </span>
                             </div>
                         </div>
                     </div>

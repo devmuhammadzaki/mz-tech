@@ -1,4 +1,5 @@
 import ApplicationForm from '@/views/ApplicationForm.vue'
+import ContactusView from '@/views/ContactusView.vue'
 import JobDetail from '@/views/JobDetail.vue'
 import JobsView from '@/views/JobsView.vue'
 import ServicesView from '@/views/ServicesView.vue'
@@ -77,6 +78,7 @@ const router = createRouter({
     {
       path: '/contactus',
       name: 'contactus',
+      component: ContactusView,
     },
   ],
 })
