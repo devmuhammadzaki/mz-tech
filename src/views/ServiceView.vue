@@ -1,26 +1,27 @@
 <script setup>
-import BreadcrumbComponent from '@/components/BreadcrumbComponent.vue'
-import { useServicesStore } from '@/stores/servicesStore';
-import { ref } from 'vue';
+import servicesData from '@/assets/services.json';
+import BreadcrumbComponent from '@/components/BreadcrumbComponent.vue';
+import { onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router';
 
-const props = defineProps({
+defineProps({
     id: String
 })
+
 const route = useRoute();
 
-const servicesStore = useServicesStore();
-const { services } = servicesStore;
-
+const services = ref([]);
 const service = ref({});
 
-const serviceId = parseInt(route.params.id);
-service.value = services.find(s => s.id === serviceId) || {};
+onMounted(() => {
+    services.value = servicesData;
+    const serviceId = parseInt(route.params.id);
+    service.value = services.value.find(s => s.id === serviceId) || {};
+});
 </script>
 
 
 <template>
-    <input type="hidden" :value="props.id">
 
     <BreadcrumbComponent title="خدماتنا" link="services" />
 

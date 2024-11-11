@@ -1,9 +1,13 @@
 <script setup>
+import servicesData from '@/assets/services.json';
 import ServiceComponent from '@/components/ServiceComponent.vue';
-import { useServicesStore } from '@/stores/servicesStore';
+import { onMounted, ref } from 'vue';
 
-const servicesStore = useServicesStore();
-const { services } = servicesStore;
+const services = ref([]);
+
+onMounted(() => {
+    services.value = servicesData;
+});
 </script>
 
 <template>
