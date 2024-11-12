@@ -9,7 +9,9 @@ import PreloaderComponent from './components/PreloaderComponent.vue';
 
   <HeaderComponent />
 
-  <RouterView></RouterView>
+  <router-view v-slot="{ Component }">
+      <component :is="Component"></component>
+  </router-view>
 
   <FooterComponent />
 </template>

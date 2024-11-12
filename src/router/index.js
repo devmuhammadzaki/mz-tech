@@ -83,14 +83,35 @@ const router = createRouter({
       component: ContactusView,
     },
   ],
+})
 
-  scrollBehavior(savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return { x: 0, y: 0 }
-    }
-  },
+let hasReloaded = false
+
+router.beforeEach((to, from, next) => {
+  if (from.name !== to.name) {
+    hasReloaded = false
+  }
+
+  if (
+    (to.name === 'home' || to.name === 'services') &&
+    from.name !== to.name &&
+    window.location.pathname !== to.path &&
+    !hasReloaded
+  ) {
+    hasReloaded = true
+    window.location.replace(to.fullPath)
+  } else {
+    next()
+  }
+})
+
+window.addEventListener('popstate', () => {
+  const path = window.location.pathname
+
+  if ((path === '/' || path === '/services') && !hasReloaded) {
+    hasReloaded = true
+    window.location.replace(path)
+  }
 })
 
 export default router
