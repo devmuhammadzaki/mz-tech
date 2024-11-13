@@ -15,81 +15,26 @@ import HomeView from '../views/HomeView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: AboutView,
-    },
-    {
-      path: '/works',
-      name: 'works',
-      component: WorksView,
-    },
-    {
-      path: '/services',
-      name: 'services',
-      component: ServicesView,
-    },
-    {
-      path: '/services/:id',
-      name: 'service',
-      component: ServiceView,
-      props: true,
-    },
-    {
-      path: '/jobs',
-      name: 'jobs',
-      component: JobsView,
-    },
-    {
-      path: '/jobs/:id',
-      name: 'job',
-      component: JobDetail,
-      props: true,
-    },
+    { path: '/', name: 'home', component: HomeView },
+    { path: '/about', name: 'about', component: AboutView },
+    { path: '/works', name: 'works', component: WorksView },
+    { path: '/services', name: 'services', component: ServicesView },
+    { path: '/services/:id', name: 'service', component: ServiceView, props: true },
+    { path: '/jobs', name: 'jobs', component: JobsView },
+    { path: '/jobs/:id', name: 'job', component: JobDetail, props: true },
     {
       path: '/job-application/:id',
       name: 'job-application',
       component: ApplicationForm,
       props: true,
     },
-    {
-      path: '/customers',
-      name: 'customers',
-      component: CustomersView,
-    },
-    {
-      path: '/blogs',
-      name: 'blogs',
-      component: BlogsView
-    },
-    {
-      path: '/plans',
-      name: 'plans',
-      component: PlansView
-    },
-    {
-      path: '/support',
-      name: 'support',
-    },
-    {
-      path: '/quote-request',
-      name: 'quote-request',
-    },
-    {
-      path: '/service-request',
-      name: 'service-request',
-    },
-    {
-      path: '/contactus',
-      name: 'contactus',
-      component: ContactusView,
-    },
+    { path: '/customers', name: 'customers', component: CustomersView },
+    { path: '/blogs', name: 'blogs', component: BlogsView },
+    { path: '/plans', name: 'plans', component: PlansView },
+    { path: '/support', name: 'support' },
+    { path: '/quote-request', name: 'quote-request' },
+    { path: '/service-request', name: 'service-request' },
+    { path: '/contactus', name: 'contactus', component: ContactusView },
   ],
 })
 
