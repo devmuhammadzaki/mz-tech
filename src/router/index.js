@@ -53,12 +53,17 @@ router.beforeEach((to, from, next) => {
   }
 })
 
+const prenav = window.location.origin
+
 window.addEventListener('popstate', () => {
   const path = window.location.pathname
 
+  console.log(prenav + path);
+  
+
   if ((path === '/' || path === '/our-services') && !hasReloaded) {
     hasReloaded = true
-    window.location.replace(path)
+    window.location.replace(prenav + path)
   }
 })
 
