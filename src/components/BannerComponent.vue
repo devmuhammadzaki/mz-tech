@@ -14,7 +14,7 @@
                             <div class="banner_btn">
                                 <RouterLink to="/customers"><i class="fas fa-cloud-download-alt"></i>عملائنا
                                 </RouterLink>
-                                <RouterLink to="/services"><i class="fas fa-clipboard-list"></i>خدماتنا</RouterLink>
+                                <RouterLink to="/our-services"><i class="fas fa-clipboard-list"></i>خدماتنا</RouterLink>
                             </div>
                         </div>
                         <div class="banner_mockup">

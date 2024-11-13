@@ -23,7 +23,7 @@ onMounted(() => {
 
 <template>
 
-    <BreadcrumbComponent title="خدماتنا" link="services" />
+    <BreadcrumbComponent title="خدماتنا" link="our-services" />
 
     <section class="str-feature-section str-feature-section-page str-single-service">
         <div class="container">

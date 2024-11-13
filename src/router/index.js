@@ -18,16 +18,11 @@ const router = createRouter({
     { path: '/', name: 'home', component: HomeView },
     { path: '/about', name: 'about', component: AboutView },
     { path: '/works', name: 'works', component: WorksView },
-    { path: '/services', name: 'services', component: ServicesView },
+    { path: '/our-services', name: 'our-services', component: ServicesView },
     { path: '/services/:id', name: 'service', component: ServiceView, props: true },
     { path: '/jobs', name: 'jobs', component: JobsView },
     { path: '/jobs/:id', name: 'job', component: JobDetail, props: true },
-    {
-      path: '/job-application/:id',
-      name: 'job-application',
-      component: ApplicationForm,
-      props: true,
-    },
+    { path: '/job-application/:id', name: 'job-application', component: ApplicationForm, props: true },
     { path: '/customers', name: 'customers', component: CustomersView },
     { path: '/blogs', name: 'blogs', component: BlogsView },
     { path: '/plans', name: 'plans', component: PlansView },
@@ -46,7 +41,7 @@ router.beforeEach((to, from, next) => {
   }
 
   if (
-    (to.name === 'home' || to.name === 'services') &&
+    (to.name === 'home' || to.name === 'our-services') &&
     from.name !== to.name &&
     window.location.pathname !== to.path &&
     !hasReloaded
@@ -61,7 +56,7 @@ router.beforeEach((to, from, next) => {
 window.addEventListener('popstate', () => {
   const path = window.location.pathname
 
-  if ((path === '/' || path === '/services') && !hasReloaded) {
+  if ((path === '/' || path === '/our-services') && !hasReloaded) {
     hasReloaded = true
     window.location.replace(path)
   }
