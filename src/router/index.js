@@ -4,6 +4,7 @@ import ContactusView from '@/views/ContactusView.vue'
 import CustomersView from '@/views/CustomersView.vue'
 import JobDetail from '@/views/JobDetail.vue'
 import JobsView from '@/views/JobsView.vue'
+import PlansView from '@/views/PlansView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import ServiceView from '@/views/ServiceView.vue'
 import WorksView from '@/views/WorksView.vue'
@@ -66,6 +67,11 @@ const router = createRouter({
       path: '/blogs',
       name: 'blogs',
       component: BlogsView
+    },
+    {
+      path: '/plans',
+      name: 'plans',
+      component: PlansView
     },
     {
       path: '/support',
