@@ -1,4 +1,5 @@
 import ApplicationForm from '@/views/ApplicationForm.vue'
+import BlogsView from '@/views/BlogsView.vue'
 import ContactusView from '@/views/ContactusView.vue'
 import CustomersView from '@/views/CustomersView.vue'
 import JobDetail from '@/views/JobDetail.vue'
@@ -64,6 +65,7 @@ const router = createRouter({
     {
       path: '/blogs',
       name: 'blogs',
+      component: BlogsView
     },
     {
       path: '/support',
