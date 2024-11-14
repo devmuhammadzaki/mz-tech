@@ -7,6 +7,7 @@ import JobsView from '@/views/JobsView.vue'
 import PlansView from '@/views/PlansView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import ServiceView from '@/views/ServiceView.vue'
+import SupportView from '@/views/SupportView.vue'
 import WorksView from '@/views/WorksView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import AboutView from '../views/AboutView.vue'
@@ -26,7 +27,7 @@ const router = createRouter({
     { path: '/customers', name: 'customers', component: CustomersView },
     { path: '/blogs', name: 'blogs', component: BlogsView },
     { path: '/plans', name: 'plans', component: PlansView },
-    { path: '/support', name: 'support' },
+    { path: '/support', name: 'support', component: SupportView },
     { path: '/quote-request', name: 'quote-request' },
     { path: '/service-request', name: 'service-request' },
     { path: '/contactus', name: 'contactus', component: ContactusView },
