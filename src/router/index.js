@@ -5,6 +5,8 @@ import CustomersView from '@/views/CustomersView.vue'
 import JobDetail from '@/views/JobDetail.vue'
 import JobsView from '@/views/JobsView.vue'
 import PlansView from '@/views/PlansView.vue'
+import Quoterequestview from '@/views/QuoterequestView.vue'
+import ServicerequestView from '@/views/ServicerequestView.vue'
 import ServicesView from '@/views/ServicesView.vue'
 import ServiceView from '@/views/ServiceView.vue'
 import SupportView from '@/views/SupportView.vue'
@@ -28,8 +30,8 @@ const router = createRouter({
     { path: '/blogs', name: 'blogs', component: BlogsView },
     { path: '/plans', name: 'plans', component: PlansView },
     { path: '/support', name: 'support', component: SupportView },
-    { path: '/quote-request', name: 'quote-request' },
-    { path: '/service-request', name: 'service-request' },
+    { path: '/service-request', name: 'service-request', component: ServicerequestView },
+    { path: '/quote-request', name: 'quote-request', component: Quoterequestview },
     { path: '/contactus', name: 'contactus', component: ContactusView },
   ],
 })
