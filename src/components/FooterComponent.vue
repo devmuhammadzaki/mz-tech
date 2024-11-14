@@ -9,7 +9,7 @@
                     <div class="col-lg-4">
                         <div class="str-footer-widget str-headline pera-content">
                             <div class="str-ft-about-widget">
-                                <RouterLink to="/" exact><img class="footer-logo"
+                                <RouterLink to="/"><img class="footer-logo"
                                         src="/storage/Settings/settings_152-1639569616.png" alt="Our Logo" />
                                 </RouterLink>
                                 <p>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="str-copywright-text text-center">
-            جميع الحقوق محفوظة ©<RouterLink to="/" exact>محمد زكي لتقنية المعلومات</RouterLink>
+            جميع الحقوق محفوظة ©<RouterLink to="/">محمد زكي لتقنية المعلومات</RouterLink>
         </div>
     </footer>
 </template>

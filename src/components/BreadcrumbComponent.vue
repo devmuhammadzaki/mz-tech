@@ -15,10 +15,10 @@ defineProps({
             <div class="breadcurmb-item-list text-center ul-li">
                 <ul class="saasio-page-breadcurmb">
                     <li>
-                        <RouterLink to="/" exact>الصفحة الرئيسية</RouterLink>
+                        <RouterLink to="/">الصفحة الرئيسية</RouterLink>
                     </li>
                     <li>
-                        <RouterLink :to="'/' + link" exact> {{ title }}</RouterLink>
+                        <RouterLink :to="'/' + link"> {{ title }}</RouterLink>
                     </li>
                 </ul>
             </div>

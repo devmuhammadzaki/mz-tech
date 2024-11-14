@@ -28,7 +28,7 @@ const toggleDropdown = () => {
                                 <ul class="navbar-nav text-capitalize clearfix d-flex flex-row flex-nowrap text-nowrap"
                                     id="main-nav">
                                     <li class="active">
-                                        <RouterLink to="/" exact>الرئيسية</RouterLink>
+                                        <RouterLink to="/">الرئيسية</RouterLink>
                                     </li>
                                     <li>
                                         <RouterLink to="/about">عن الشركة</RouterLink>
@@ -37,7 +37,7 @@ const toggleDropdown = () => {
                                         <RouterLink to="/works">أعمالنا</RouterLink>
                                     </li>
                                     <li>
-                                        <RouterLink to="/our-services" exact>الخدمات</RouterLink>
+                                        <RouterLink to="/our-services">الخدمات</RouterLink>
                                     </li>
                                     <li>
                                         <RouterLink to="/jobs">التوظيف</RouterLink>
@@ -97,7 +97,7 @@ const toggleDropdown = () => {
                         <nav class="s2-mobile-main-navigation clearfix ul-li">
                             <ul class="navbar-nav text-capitalize clearfix" id="m-main-nav">
                                 <li class="active">
-                                    <RouterLink to="/" exact>الرئيسية</RouterLink>
+                                    <RouterLink to="/">الرئيسية</RouterLink>
                                 </li>
                                 <li>
                                     <RouterLink to="/about">عن الشركة</RouterLink>
@@ -106,7 +106,7 @@ const toggleDropdown = () => {
                                     <RouterLink to="/works">أعمالنا</RouterLink>
                                 </li>
                                 <li>
-                                    <RouterLink to="/our-services" exact>الخدمات</RouterLink>
+                                    <RouterLink to="/our-services">الخدمات</RouterLink>
                                 </li>
                                 <li>
                                     <RouterLink to="/jobs">التوظيف</RouterLink>

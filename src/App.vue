@@ -1,4 +1,5 @@
 <script setup>
+import { RouterView } from 'vue-router';
 import FooterComponent from './components/FooterComponent.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import PreloaderComponent from './components/PreloaderComponent.vue';
@@ -9,9 +10,7 @@ import PreloaderComponent from './components/PreloaderComponent.vue';
 
   <HeaderComponent />
 
-  <router-view v-slot="{ Component }">
-      <component :is="Component"></component>
-  </router-view>
+  <RouterView></RouterView>
 
   <FooterComponent />
 </template>
