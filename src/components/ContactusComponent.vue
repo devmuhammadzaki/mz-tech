@@ -102,7 +102,7 @@ onMounted(() => {
                                 <i class="fas fa-phone"></i><a href="tel:012845543133"> 012845543133 </a>
                             </p>
                             <p>
-                                <i class="fas fa-envelope"></i><a href="mailto:info@deltaitech.com"> info@mz.tech </a>
+                                <i class="fas fa-envelope"></i><a href="mailto:devmuhammadzaki@gmail.com"> devmuhammadzaki@gmail.com </a>
                             </p>
                         </div>
                     </div>
