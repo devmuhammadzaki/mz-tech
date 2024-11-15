@@ -2,9 +2,9 @@
 
 ![](./src/assets/Screenshot_10-11-2024_75848_127.0.0.1.jpeg)
 
-مشروع احترافي متكامل بإطار Vue.js
-فكرة المشروع Startup Website كامل و Responsive لعرض خدمات و أعمال الشركة مع امكانية التواصل و تقديم المقترحات و استلام الدعم الفني
-استخدم لعمل المشروع: CSS, JavaScript, jQuery, Sass, Bootstrap, Vue.js, Vue Router, Pinia for State Management
+<p>Vue.js مشروع احترافي متكامل بإطار العمل</p>
+<p>فكرة المشروع Startup Website كامل و Responsive لعرض خدمات و أعمال الشركة مع امكانية التواصل و تقديم المقترحات و استلام الدعم الفني</p>
+<p>استخدم لعمل المشروع: CSS, JavaScript, jQuery, Sass, Bootstrap, Vue.js, Vue Router, Pinia for State Management</p>
 
 ## Project Setup
 
