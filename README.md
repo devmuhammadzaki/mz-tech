@@ -2,7 +2,9 @@
 
 ![](./src/assets/Screenshot_10-11-2024_75848_127.0.0.1.jpeg)
 
-موقع احترافي لشركة محمد زكي لتقنية المعلومات.
+مشروع احترافي متكامل بإطار Vue.js
+فكرة المشروع Startup Website كامل و Responsive لعرض خدمات و أعمال الشركة مع امكانية التواصل و تقديم المقترحات و استلام الدعم الفني
+استخدم لعمل المشروع: CSS, JavaScript, jQuery, Sass, Bootstrap, Vue.js, Vue Router, Pinia for State Management
 
 ## Project Setup
 
