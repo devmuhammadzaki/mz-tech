@@ -49,17 +49,17 @@
                                     <h3>الزيادة في المبيعات</h3>
                                     <div class="barfiller" id="progress1">
                                         <div class="tipWrap"><span class="tip"></span></div>
-                                        <span class="fill" data-percentage="25"></span>
+                                        <span class="fill" data-percentage="17"></span>
                                     </div>
                                     <h3>معدل التوصية</h3>
                                     <div class="barfiller" id="progress2">
                                         <div class="tipWrap"><span class="tip"></span></div>
-                                        <span class="fill" data-percentage="96"></span>
+                                        <span class="fill" data-percentage="17"></span>
                                     </div>
                                     <h3>مشاريع جديدة أصبحنا جزءاً منها</h3>
                                     <div class="barfiller" id="progress3">
                                         <div class="tipWrap"><span class="tip"></span></div>
-                                        <span class="fill" data-percentage="10"></span>
+                                        <span class="fill" data-percentage="17"></span>
                                     </div>
                                 </div>
                             </div>
